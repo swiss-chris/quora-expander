@@ -67,7 +67,7 @@ def click_on_all(browser, find_by, selector):
             last_nb_buttons_repeated += 1
             # if we keep seeing the same number of buttons, the buttons are probably broken
             if last_nb_buttons_repeated == 10:
-                print("aborting. it looks like the remaining buttons may not be responding to clicks.")
+                print("aborting. it looks like the remaining", nb_buttons, "buttons may not be responding to clicks.")
                 break
         else:
             last_nb_buttons = nb_buttons

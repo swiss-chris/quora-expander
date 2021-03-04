@@ -43,7 +43,6 @@ print('user has ', nbanswers, ' answers')
 def print_method_name(name):
     print()
     print(name + "()")
-    print()
 
 def do_scrolldown():
     print_method_name(do_scrolldown.__name__)
@@ -102,9 +101,7 @@ def print_manual_instructions():
 
 ###############################################################
 
-if(args.manual):
-    print_manual_instructions()
-else:
+if(not args.manual):
     do_all()
     do_all()
     do_all()
@@ -112,3 +109,5 @@ else:
     do_all()
     do_all()
     # if saving as PDF, remove fixed position CSS of search bar to prevent it from being printed on each page
+
+print_manual_instructions()
