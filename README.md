@@ -21,3 +21,7 @@ $ python -i quora-expander.py Artem-Boytsov
 
 **Disclaimer**: If you're an experienced python coder, you'll probably find all kinds of things that are wrong with this script. 
 Feel free to propose improvements :) !
+
+This project uses the following license: [MIT]
+
+[MIT]: <https://opensource.org/licenses/MIT>
