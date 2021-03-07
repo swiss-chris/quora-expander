@@ -164,12 +164,12 @@ def do_all():
     do_show_more_of_comments()
     do_try_again()
 
-def attempt_do_all(attempt_nb, total_nb):
+def iterate_do_all(iteration_nb, total_nb):
     print()
-    print("attempt", attempt_nb+1, "of", total_nb)
+    print("iteration", iteration_nb + 1, "of", total_nb)
     do_all()
 
-def print_manual_instructions():
+def do_print_manual_instructions():
     print()
     print("To see which commands you can execute manually, type 'do_' and then Tab (twice) to see the list of commands "
           "you can use to automatically expand the articles and comments. Type the rest of the command "
@@ -186,10 +186,10 @@ def print_manual_instructions():
 ###############################################################
 
 if(not args.manual):
-    nb_attempts = 6
-    for i in range(nb_attempts):
-        attempt_do_all(i, nb_attempts)
+    nb_iterations = 6
+    for i in range(nb_iterations):
+        iterate_do_all(i, nb_iterations)
 
-print_manual_instructions()
+do_print_manual_instructions()
 
 # if saving as PDF, remove fixed position CSS of search bar to prevent it from being printed on each page
