@@ -177,7 +177,8 @@ def do_print_manual_instructions():
     print()
     print("E.g. you could type 'do_all()' and Enter to run all the other commands in sequence.")
     print()
-    print("to exit (the interactive shell), press Ctrl-D")
+    print("To exit (the interactive shell) while keeping the browser open, type 'exit()' and hit Enter.")
+    print("To exit including closing the browser, press Ctrl-D.")
     print()
     print("PS: In order for manual command execution to work, make sure you are running this script in interactive mode "
           "by explicitly calling the 'python' command and passing in the '-i' flag. See the --help output for an example.")
