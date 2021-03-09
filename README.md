@@ -54,8 +54,19 @@ It will print out how many instances of that button it has found on the page eac
 do_view_more_comments()
 clicking on 141 instances of "//div[text()[contains(., 'View More Comments')]]"
 clicking on 28 instances of "//div[text()[contains(., 'View More Comments')]]"
-clicking on 5 instances of "//div[text()[contains(., 'View More Comments')]]"
+clicking on 11 instances of "//div[text()[contains(., 'View More Comments')]]"
+clicking on 7 instances of "//div[text()[contains(., 'View More Comments')]]"
+clicking on 4 instances of "//div[text()[contains(., 'View More Comments')]]"
+clicking on 4 instances of "//div[text()[contains(., 'View More Comments')]]"
+clicking on 3 instances of "//div[text()[contains(., 'View More Comments')]]"
+clicking on 1 instances of "//div[text()[contains(., 'View More Comments')]]"
+clicking on 1 instances of "//div[text()[contains(., 'View More Comments')]]"
+clicking on 1 instances of "//div[text()[contains(., 'View More Comments')]]"
+clicking on 1 instances of "//div[text()[contains(., 'View More Comments')]]"
+clicking on 1 instances of "//div[text()[contains(., 'View More Comments')]]"
+clicking on 1 instances of "//div[text()[contains(., 'View More Comments')]]"
 clicking on 0 instances of "//div[text()[contains(., 'View More Comments')]]"
+>>> 
 ```
 
 Whereas this command:
