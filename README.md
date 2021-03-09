@@ -20,9 +20,12 @@ e.g.
 $ python -i quora-expander.py Artem-Boytsov
 ```
 
+You can also check out this [article], where I explain some of the features of this program in more detail.
+
 **Disclaimer**: If you're an experienced python coder, you'll probably find all kinds of things that are wrong with this script. 
 Feel free to propose improvements :) !
 
 This project uses the following license: [MIT]
 
-[MIT]: <https://opensource.org/licenses/MIT>
+[MIT]: https://opensource.org/licenses/MIT
+[article]: https://swiss-chris.medium.com/how-to-expand-all-answers-and-comments-on-quora-with-python-and-selenium-df6fdd86906c
