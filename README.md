@@ -37,7 +37,7 @@ do_scrolldown(                 do_view_more_comments(
 do_show_more_of_answers(       do_view_more_replies(
 ```
 
-Complete the command you want, close the parenthesis, and hit Enter. 
+Finish typing the command you want, close the parenthesis, and hit Enter. 
 
 E.g. the following command:
 
