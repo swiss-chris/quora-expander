@@ -86,6 +86,10 @@ Finally,
 
 will print a brief instruction message mentioning how to use the other commands.
 
+To exit:
+- you can either type `exit()` followed by the Enter key to exit the interactive shell, but leave the browser open, or
+- you can press Ctrl-D to exit the shell and close the browser all at the same time.
+
 ---
 
 This project uses the following license: [MIT]
