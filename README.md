@@ -51,7 +51,6 @@ It will print out how many instances of that button it has found on the page eac
 
 ```shell
 
-do_view_more_comments()
 clicking on 141 instances of "//div[text()[contains(., 'View More Comments')]]"
 clicking on 28 instances of "//div[text()[contains(., 'View More Comments')]]"
 clicking on 11 instances of "//div[text()[contains(., 'View More Comments')]]"
