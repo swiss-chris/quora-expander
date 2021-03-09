@@ -55,7 +55,7 @@ do_view_more_comments()
 clicking on 141 instances of "//div[text()[contains(., 'View More Comments')]]"
 clicking on 23 instances of "//div[text()[contains(., 'View More Comments')]]"
 clicking on 5 instances of "//div[text()[contains(., 'View More Comments')]]"
-
+clicking on 0 instances of "//div[text()[contains(., 'View More Comments')]]"
 ```
 
 Whereas this command:
