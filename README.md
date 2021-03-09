@@ -69,7 +69,7 @@ will call each of the individual commands once, in the appropriate order.
 Finally,
 
 ```shell
-do_print_manual_instructions()
+>>> do_print_manual_instructions()
 ```
 
 will print a brief instruction message mentioning how to use the other commands.
