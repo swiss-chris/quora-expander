@@ -1,6 +1,6 @@
 # Quora-expander
 
-Quora-expander is a command-line application written in Python that can automatically expand collapsed articles and comments for any given Quora user.
+Quora-expander is a command-line application written in Python that can automatically expand collapsed answers and comments for any given Quora user.
 
 To run `quora-expander`:
 

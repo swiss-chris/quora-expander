@@ -68,7 +68,7 @@ def click_on_all(browser, find_by, selector):
             last_nb_buttons_repeated = 0
 
 
-def show_more_of_articles(browser):
+def show_more_of_answers(browser):
     click_on_all(browser, browser.find_elements_by_xpath, "//div[contains(text(), '(more)')]")
 
 def view_more_comments(browser):
@@ -103,7 +103,7 @@ def msg(name=None):
          
          Use -h or --help for the full help output.
         '''
-parser=argparse.ArgumentParser(description='Python (interactive) Quora article and comments expander script', usage=msg())
+parser=argparse.ArgumentParser(description='Python (interactive) Quora answer and comments expander script', usage=msg())
 parser.add_argument("profile_id", help="The Quora Profile ID you want to visit, e.g. 'Artem-Boytsov'")
 parser.add_argument("-m", "--manual", action="store_true", help="skip all automatic processing and execute commands manually")
 args=parser.parse_args()
@@ -124,9 +124,9 @@ def do_scrolldown():
     print_method_name(do_scrolldown.__name__)
     scrolldown(browser)
 
-def do_show_more_of_articles():
-    print_method_name(do_show_more_of_articles.__name__)
-    show_more_of_articles(browser)
+def do_show_more_of_answers():
+    print_method_name(do_show_more_of_answers.__name__)
+    show_more_of_answers(browser)
 
 def do_view_more_comments():
     print_method_name(do_view_more_comments.__name__)
@@ -156,7 +156,7 @@ def do_all():
     print_method_name(do_all.__name__)
     print("executing all commands in sequence...")
     do_scrolldown()
-    do_show_more_of_articles()
+    do_show_more_of_answers()
     do_view_more_comments()
     do_view_collapsed_comments()
     do_expand_hidden_comments()
@@ -172,7 +172,7 @@ def iterate_do_all(iteration_nb, total_nb):
 def do_print_manual_instructions():
     print()
     print("To see which commands you can execute manually, type 'do_' and then Tab (twice) to see the list of commands "
-          "you can use to automatically expand the articles and comments. Type the rest of the command "
+          "you can use to automatically expand the answers and comments. Type the rest of the command "
           "you want to call, close the parenthesis and hit Enter.")
     print()
     print("E.g. you could type 'do_all()' and Enter to run all the other commands in sequence.")
