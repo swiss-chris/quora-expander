@@ -20,10 +20,12 @@ e.g.
 $ python -i quora-expander.py Artem-Boytsov
 ```
 
-Optinally, you can pass the additional argument `-m` or `--manual` to skip the automatic execution of commands and drop immediately into the interactive shell, letting you pick and choose from the procession commands.
+Once the script has finished with the automatic execution of commands, it will drop into interactive mode and let you run any or all of the individual commands manually, to make sure nothing was missed.
+
+Optinally, when you first run the script, you can pass the additional argument `-m` or `--manual` to skip the automatic execution of commands and drop immediately into the interactive shell, letting you pick and choose from the processing commands.
 
 ```shell
-$ python -i quora-expander.py Artem-Boytsov -m
+$ python -i quora-expander.py [profile_id] -m
 ```
 
 Once you are in the interactive shell, you can type `do_` and the Tab key (twice) to get the list of commands at your disposal:
