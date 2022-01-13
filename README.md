@@ -8,7 +8,10 @@ To run `quora-expander`:
 1. Set up python (>= v3.9.1) to be run inside a terminal on your local machine
 1. Make sure you have Google Chrome installed on your local machine
 1. Download a version of `chromedriver` that is compatible with your machine and the installed version of Google Chrome and put the chromedriver binary inside the same directory as the `quora-expander.py` script, possibly replacing any one that was there before.
-1. Run the `quora-expander` with the following command
+1. If you don't need the comments, run the `quora-expander` as shown below without the `-m` argument.
+1. However, to get the full benefits of this script, including the expansion of all the comments, you'll need to log into quora first. For this, use the command in combination with the `-m` argument (see further below). This will open the profile page you want to expand. Then, remaining on this page, log into quora. After logging in, make sure you are still on the same profile page (but now logged into quora) and only then now the `do_all()` command multiple times until everything is expanded.
+ 
+Without the `-m` argument
 
 ```shell
 $ python -i quora-expander.py [profile_id]
