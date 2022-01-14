@@ -169,7 +169,6 @@ def do_all():
     do_expand_hidden_comments()
     do_view_more_replies()
     do_show_more_of_comments()
-    do_show_more()
     do_try_again()
 
 def iterate_do_all(iteration_nb, total_nb):
