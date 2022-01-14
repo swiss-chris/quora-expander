@@ -35,11 +35,17 @@ Once you are in the interactive shell, you can type `do_` and the Tab key (twice
 
 ```shell
 >>> do_
-do_all(                        do_show_more_of_comments(
-do_expand_hidden_comments(     do_try_again(
-do_print_manual_instructions(  do_view_collapsed_comments(
-do_scrolldown(                 do_view_more_comments(
-do_show_more_of_answers(       do_view_more_replies(
+do_all(                        
+do_expand_hidden_comments(     
+do_print_manual_instructions(  
+do_scrolldown(                 
+do_show_more(
+do_show_more_of_answers(       
+do_show_more_of_comments(
+do_try_again(
+do_view_collapsed_comments(
+do_view_more_comments(
+do_view_more_replies(
 ```
 
 Finish typing the command you want, close the parenthesis, and hit Enter. 
