@@ -78,7 +78,7 @@ def view_collapsed_comments(browser):
     click_on_all(browser, browser.find_elements_by_xpath, "//div[text()[contains(., 'View collapsed comments')]]")
 
 def expand_hidden_comments(browser):
-    click_on_all(browser, browser.find_elements_by_css_selector, ".qu-tapHighlight--white .qu-pb--tiny")
+    click_on_all(browser, browser.find_elements_by_css_selector, ".qu-tapHighlight--white .qu-pb--small")
 
 def view_more_replies(browser):
     click_on_all(browser, browser.find_elements_by_xpath, "//div[text()[contains(., 'View More Replies')]]")
