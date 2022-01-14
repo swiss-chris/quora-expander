@@ -93,7 +93,7 @@ To exit:
 - you can either type `exit()` followed by the Enter key to exit the interactive shell, but leave the browser open, or
 - you can press Ctrl-D to exit the shell and close the browser all at the same time.
 
-From time to time, Quora might change the stucture of their HTML/CSS code and the xpath selectors will stop working. If you get the impression that running the commands is not clicking on any of the links they are supposed to, check the individual xpath and css selectors in the code and adapt them to make them successfully select the links you want `quora-expander` to click on for you.
+From time to time, Quora might change the stucture of their html/css code and the xpath/css selectors will stop working. If you get the impression that running the commands is not clicking on any of the links they are supposed to, check the individual xpath and css selectors in the code and adapt them to make them successfully select the links you want `quora-expander` to click on for you.
 
 ---
 
