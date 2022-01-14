@@ -86,6 +86,9 @@ def view_more_replies(browser):
 def show_more_of_comments(browser):
     click_on_all(browser, browser.find_elements_by_xpath, "//div[contains(text(), '(more)') and not(ancestor::*[contains(@class, 'spacing_log_answer_content')])]")
 
+def show_more(browser):
+    click_on_all(browser, browser.find_elements_by_xpath, "//div[contains(text(), '(more)')]")
+
 def try_again(browser):
     click_on_all(browser, browser.find_elements_by_xpath, "//div[text()[contains(., 'Try again')]]")
 
@@ -148,6 +151,10 @@ def do_show_more_of_comments():
     print_method_name(do_show_more_of_comments.__name__)
     show_more_of_comments(browser)
 
+def do_show_more():
+    print_method_name(do_show_more.__name__)
+    show_more(browser)
+
 def do_try_again():
     print_method_name(do_try_again.__name__)
     try_again(browser)
@@ -162,6 +169,7 @@ def do_all():
     do_expand_hidden_comments()
     do_view_more_replies()
     do_show_more_of_comments()
+    do_show_more()
     do_try_again()
 
 def iterate_do_all(iteration_nb, total_nb):
