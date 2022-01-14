@@ -69,6 +69,7 @@ def click_on_all(browser, find_by, selector):
 
 
 def show_more_of_answers(browser):
+    # click_on_all(browser, browser.find_elements_by_xpath, "//div[contains(@class, 'spacing_log_answer_content')]//div[contains(text(), '(more)')]")
     click_on_all(browser, browser.find_elements_by_xpath, "//div[contains(text(), '(more)')]") # same show_more_of_comments
 
 def view_more_comments(browser):
@@ -81,7 +82,7 @@ def expand_hidden_comments(browser):
     click_on_all(browser, browser.find_elements_by_css_selector, ".qu-tapHighlight--white .qu-pb--small")
 
 def view_more_replies(browser):
-    click_on_all(browser, browser.find_elements_by_xpath, "//div[text()[contains(., 'View More Replies')]]")
+    click_on_all(browser, browser.find_elements_by_xpath, "//div[text()[contains(., 'View more replies')]]")
 
 def show_more_of_comments(browser):
     click_on_all(browser, browser.find_elements_by_xpath, "//div[contains(text(), '(more)')]") # same as show_more_of_answers
