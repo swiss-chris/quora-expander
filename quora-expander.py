@@ -31,12 +31,12 @@ def scrolldown(self):
     # scroll down loop until page not changing
     while loop_scroll:
         self.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(2)
+        time.sleep(1)
         new_height=self.page_source
         if new_height == last_height:
             # in case of not change, we increase the waiting time
             attempt += 1
-            if attempt==3:# in the n-th attempt we end the scrolling
+            if attempt==6:# in the n-th attempt we end the scrolling
                 loop_scroll=False
         else:
             attempt=0
@@ -52,7 +52,6 @@ def click_on_all(browser, find_by, selector):
         print('clicking on', nb_buttons, 'instances of', '"' + selector + '"')
         for button in buttons:
             ActionChains(browser).move_to_element(button).click(button).perform()
-            time.sleep(0.5)
 
         # know when to exit the loop
         if nb_buttons == 0:
