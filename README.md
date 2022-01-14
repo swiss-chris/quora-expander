@@ -50,26 +50,26 @@ E.g. the following command:
 >>> do_view_more_comments()
 ```
 
-will click on all "View More Comments" buttons it can find on the page, and once it has finished, will start over again until there are either no more "View More Comments" buttons on the page or until it determines that the number of buttons on the page isn't changing after clicking on all of them.
+will click on all "View more comments" buttons it can find on the page, and once it has finished, will start over again until there are either no more "View more comments" buttons on the page or until it determines that the number of buttons on the page isn't changing after clicking on all of them.
 
 It will print out how many instances of that button it has found on the page each time it checks:
 
 ```shell
 
-clicking on 141 instances of "//div[text()[contains(., 'View More Comments')]]"
-clicking on 28 instances of "//div[text()[contains(., 'View More Comments')]]"
-clicking on 11 instances of "//div[text()[contains(., 'View More Comments')]]"
-clicking on 7 instances of "//div[text()[contains(., 'View More Comments')]]"
-clicking on 4 instances of "//div[text()[contains(., 'View More Comments')]]"
-clicking on 4 instances of "//div[text()[contains(., 'View More Comments')]]"
-clicking on 3 instances of "//div[text()[contains(., 'View More Comments')]]"
-clicking on 1 instances of "//div[text()[contains(., 'View More Comments')]]"
-clicking on 1 instances of "//div[text()[contains(., 'View More Comments')]]"
-clicking on 1 instances of "//div[text()[contains(., 'View More Comments')]]"
-clicking on 1 instances of "//div[text()[contains(., 'View More Comments')]]"
-clicking on 1 instances of "//div[text()[contains(., 'View More Comments')]]"
-clicking on 1 instances of "//div[text()[contains(., 'View More Comments')]]"
-clicking on 0 instances of "//div[text()[contains(., 'View More Comments')]]"
+clicking on 141 instances of "//div[text()[contains(., 'View more comments')]]"
+clicking on 28 instances of "//div[text()[contains(., 'View more comments')]]"
+clicking on 11 instances of "//div[text()[contains(., 'View more comments')]]"
+clicking on 7 instances of "//div[text()[contains(., 'View more comments')]]"
+clicking on 4 instances of "//div[text()[contains(., 'View more comments')]]"
+clicking on 4 instances of "//div[text()[contains(., 'View more comments')]]"
+clicking on 3 instances of "//div[text()[contains(., 'View more comments')]]"
+clicking on 1 instances of "//div[text()[contains(., 'View more comments')]]"
+clicking on 1 instances of "//div[text()[contains(., 'View more comments')]]"
+clicking on 1 instances of "//div[text()[contains(., 'View more comments')]]"
+clicking on 1 instances of "//div[text()[contains(., 'View more comments')]]"
+clicking on 1 instances of "//div[text()[contains(., 'View more comments')]]"
+clicking on 1 instances of "//div[text()[contains(., 'View more comments')]]"
+clicking on 0 instances of "//div[text()[contains(., 'View more comments')]]"
 >>> 
 ```
 

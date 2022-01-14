@@ -72,10 +72,10 @@ def show_more_of_answers(browser):
     click_on_all(browser, browser.find_elements_by_xpath, "//div[contains(text(), '(more)')]")
 
 def view_more_comments(browser):
-    click_on_all(browser, browser.find_elements_by_xpath, "//div[text()[contains(., 'View More Comments')]]")
+    click_on_all(browser, browser.find_elements_by_xpath, "//div[text()[contains(., 'View more comments')]]")
 
 def view_collapsed_comments(browser):
-    click_on_all(browser, browser.find_elements_by_xpath, "//div[text()[contains(., 'View Collapsed Comments')]]")
+    click_on_all(browser, browser.find_elements_by_xpath, "//div[text()[contains(., 'View collapsed comments')]]")
 
 def expand_hidden_comments(browser):
     click_on_all(browser, browser.find_elements_by_css_selector, ".qu-tapHighlight--white .qu-pb--tiny")
